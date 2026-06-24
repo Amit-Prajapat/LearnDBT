@@ -1,0 +1,5 @@
+payment_id,order_id,payment_method,amount,updated_at
+1,1001,Credit Card,50000,2024-02-01
+2,1002,UPI,60000,2024-02-02
+3,1003,Debit Card,2500,2024-02-03
+4,1004,Cash,12000,2024-02-04

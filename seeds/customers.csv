@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,city,country,created_at,updated_at
+1,Rahul,Sharma,rahul@gmail.com,Chennai,India,2024-01-01,2024-06-18
+2,Priya,Patel,priya@gmail.com,Delhi,India,2024-01-02,2024-01-02
+3,James,Wilson,james@gmail.com,New York,USA,2024-01-03,2024-01-03
+4,Ananya,Gupta,ananya@gmail.com,Bangalore,India,2024-01-04,2024-01-04
+5,Michael,Brown,michael@gmail.com,London,UK,2024-01-05,2024-01-05

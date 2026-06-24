@@ -1,0 +1,30 @@
+name: 'my_new_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'default'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+seeds:
+  my_new_project:
+    +schema: raw
+
+models:
+  my_new_project:
+
+    staging:
+      +materialized: view
+      +schema: staging
+
+    marts:
+      +schema: mart
+
+snapshots:
+  my_new_project:
+    +target_schema: snapshots

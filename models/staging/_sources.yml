@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: LEARNDBT
+    schema: LEARNDBT_RAW
+
+    tables:
+      - name: customers
+      - name: products
+      - name: orders
+      - name: payments
